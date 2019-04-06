@@ -1,0 +1,7 @@
+Shrunk the files:-
+ 1) Minimise the text(HTML, CSS, Javascript)
+      -> we can  achieve this by using the minifier like UglifyJs, WebPack, etc.
+
+ 2) Minimise the Images
+     -> There are mainly four Major Image formats
+         JPEG, SVG, GIF, PNG

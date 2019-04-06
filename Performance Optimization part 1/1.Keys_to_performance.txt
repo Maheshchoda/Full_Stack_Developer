@@ -1,0 +1,5 @@
+We can divide the performance optimisation into three parts
+
+1)FrontEnd(Code Optimisation, using ProgressiveWebApp technique, Critical Rendering Path)
+2)Network(Minimise Files, Minimise Delivery)
+3)BackEnd(CDN's, Caching, Load Balancing, DB Scaling, GZIP)
