@@ -1,0 +1,23 @@
+SSH:-
+
+-> SSH stands for the Secure Shell Protocol. It was introduced in the year 1995.
+-> SSH is a way of communicating between the computers like Http, Ftp, Https(Encrypted).
+-> SSH also communicates in Encrypted way. Wait What? then what the difference between the
+   Https and SSH then.
+   * Https is Protocol for communicating in the web browsers, where as SSH can interact
+     with the operating system.
+
+SSH connect command:-
+
+   ssh {user}@{host}
+
+   Ex:- ssh root@167.02.234.234
+
+   user:- The account you want to access, it can be a root or x or y.
+   host:- The computer that you want to access, it can be a Domain name (or) an IP address.
+
+
+SSH keygen command:-
+
+
+   ssh-keygen -t rsa -b 4096 -C "your_email@example.com"

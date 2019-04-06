@@ -1,0 +1,19 @@
+-> In order to secure the transmission of information, SSH employs a number
+   of different types of data manipulation techniques at various points in the transaction.
+-> These includes forms of Symmetrical encryption, Asymmetrical encryption, and Hashing.
+
+Symmetrical encryption:-
+      -> It uses a secret key for both encryption and decryption.
+
+  ->  Actually we don't pass that key to another user. Here we use key exchange algorithm.
+
+Asymmetrical encryption:-
+      -> It uses two key's private key and public key.
+      -> The public key can be freely shared with any party.
+      -> Public key is used for encryption and private key is used for decryption.
+
+Hashing:-
+  ->  Another form of data manipulation that SSH takes advantage of is cryptographic hashing.
+      Cryptographic hash functions are methods of creating a succinct "signature" or summary of a set of
+      information.
+  ->  This is done with the help of HMAC(Hash based Message Authentication Code).
