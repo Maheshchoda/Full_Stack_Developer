@@ -1,0 +1,4 @@
+Use CDN's like IMGIX.
+
+IMGIX api can Optimizes, and intelligently caches your entire image library
+for fast websites and apps using simple and robust URL parameters. 

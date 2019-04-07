@@ -1,0 +1,26 @@
+Pictures taken by digital cameras can contain a lot of information, like data,
+time and camera used. But last generation cameras and phones can add the GPS coordinates
+of the place where it was taken, making it a privacy hazard. You can be showing your
+home's location to the world.
+
+So we need to use some kind of tool, to remove the information
+
+Ex:- https://www.verexif.com/en/
+--------------------------------------------------------
+
+Display different sized images for different backgrounds.
+
+ -> In order to do that we can use media query's.
+
+Ex:-
+   @media screen and(min-width: 900px){
+    body{
+      background: url('./new.jpg') no-repeat center center fixed;
+    }
+   }
+
+   @media screen and(max-width: 500px){
+    body{
+      background: url('./new1.jpg') no-repeat center center fixed;
+    }
+   }

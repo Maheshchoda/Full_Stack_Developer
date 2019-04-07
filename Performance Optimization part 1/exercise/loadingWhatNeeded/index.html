@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <link rel="stylesheet" href="./styles1.css"> -->
+    <title></title>
+  </head>
+  <body>
+    <h1 id='primary'>This is the main Content, that is present in the Landing page.</h1>
+    <h1 id='secondary'>This is going to be effected by css after page loading done.</h1>
+    <script type="text/javascript">
+      //script which helps us to load the sources what we need first
+      //here we are loading stylesheet1 assume that we see in landing page
+      //stylesheet2 is when user scroll down the page
+      const loadStyleSheet = src => {
+        if(document.createStylesheet){
+          document.createStylesheet(src);
+        }else{
+        const stylesheet = document.createElement('link');
+        stylesheet.href = src;
+        stylesheet.type = 'text/css';
+        stylesheet.rel = 'stylesheet';
+        document.getElementsByTagName('head')[0].appendChild(stylesheet);
+      }
+      }
+
+      window.addEventListener('click',function(){
+        loadStyleSheet('./styles1.css');
+        console.log('Styles Loaded!');
+      });
+    </script>
+  </body>
+</html>

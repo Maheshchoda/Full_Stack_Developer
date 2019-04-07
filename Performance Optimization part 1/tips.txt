@@ -1,0 +1,24 @@
+HTML:-
+
+ #1 Load <style> in head
+ #2 Load <script> right before /body
+
+CSS:-
+
+  #3 Load only what is needed.
+  #4 Above the fold loading.
+        (fold:-The portion of a Web page that is visible in a browser
+               window when the page first loads.The portion of the page
+                that requires scrolling in order to see content is called "below the fold.")
+  #5 Media attributes (@media)
+  #6 Less Specificity
+        ex:
+        Bad:- .head .ahe .name .fera
+        Good:- .fera
+
+Javascript:-
+
+  #7  Load scripts Asynchronously.(By using asyc in script)
+  #8  Defer loading of scripts
+  #9  Minimize Dom manipulation
+  #10 Avoid long Running Javascript

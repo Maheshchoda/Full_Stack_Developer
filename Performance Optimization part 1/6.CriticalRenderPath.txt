@@ -1,0 +1,13 @@
+Critical Render Path:-
+    Which happens in the FrontEnd.
+-> First we receive the HTML which have the links to css and JS.
+
+-> So browser start building the DOM with help of HTML once it visited css,
+   it again start building the DOM with CSS, once javascript comes into the
+   pace browser stop the building DOM and starts the execution of javascript.
+
+-> Images are different, they download in the background and once completed it
+   appears in the WebPage.
+
+------------------------------------------------------------------------
+So we need to Optimize this Critical Render Path.
