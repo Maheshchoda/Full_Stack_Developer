@@ -1,0 +1,18 @@
+In the Developer tools, you can check the performance of a web page.
+
+-> It indicates the timeline of web app.
+-> It has many colours to indicate performance
+     -* green is for the first paint
+     -* blue is for the Dom loaded
+     -* red is for the load event, that page is loaded.
+
+
+--------------------------------------------------------------
+
+We need to achieve
+  -> Time to first meaningful paint.
+  -> Time to interactive
+
+---------------------------------------------------------------
+
+Code Splitting (or) Progressive bootstrapping:-
