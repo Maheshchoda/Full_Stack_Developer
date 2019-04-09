@@ -16,3 +16,26 @@ We need to achieve
 ---------------------------------------------------------------
 
 Code Splitting (or) Progressive bootstrapping:-
+    We can use dynamic import's based on the routes or the components that
+    user need to visit.
+
+-----------------------------------------------------------------
+
+In react we can check performance with syntax:
+
+     url?react_perf
+
+      By using the above code we can check what react is doing in the
+      Chrome Developer tools.
+
+-----------------------------------------------------------------
+
+Code Optimization:-
+  #1 Only load what's needed:
+      -> Code Splitting
+      -> Tree Shaking
+  #2 Avoid blocking main thread
+  #3 Avoid Memory leaks
+  #4 Avoid Multiple re-rendering
+
+-----------------------------------------------------------------

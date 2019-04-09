@@ -1,0 +1,10 @@
+The main concept of PWA is to provide the user, the experience of a native app.
+
+--------------------------------------------------------------
+Checklist:-
+  -> Manifest.json
+  
+  -> Service Worker:-
+        A service worker is a type of web worker. It's essentially a JavaScript file that
+        runs separately from the main browser thread, intercepting network requests,
+        caching or retrieving resources from the cache, and delivering push messages.
