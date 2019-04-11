@@ -1,0 +1,322 @@
+->    Software testing can be stated as the process of verifying and validating
+      that a Software or application is bug free, meets the technical requirements
+      as guided by it's design and development and meets the user requirements
+      effectively and efficiently  with handling all the exceptional and boundary
+      cases.
+
+->    The process of software testing aims not only at finding faults in the existing
+      software but also at finding measures to improve the software in terms of efficiency,
+      accuracy and usability. It mainly aims at measuring specification, functionality and
+      performance of a software program or application.
+
+------------------------------------------------------------------------------
+
+Software testing can be divided into two steps:-
+   1. Verification:-  It refers to the set of tasks that ensure that software correctly
+      implements a specific function.
+      “Are we building the product right?”
+
+   2. Validation:-  It refers to a different set of tasks that ensure that the software
+      that has been built is traceable to customer requirements.
+       “Are we building the right product?”
+
+------------------------------------------------------------------------------
+
+Testing and Debugging:-
+  Testing − It involves identifying bug/error/defect in a software without correcting it.
+            Normally professionals with a quality assurance background are involved in bugs
+            identification. Testing is performed in the testing phase.
+
+  Debugging − It involves identifying, isolating, and fixing the problems/bugs. Developers
+              who code the software conduct debugging upon encountering an error in the code.
+              Debugging is a part of White Box Testing or Unit Testing. Debugging can be performed
+              in the development phase while conducting Unit Testing or in phases while fixing the
+              reported bugs.
+------------------------------------------------------------------------------
+
+Types of testing:-
+   Software testing broadly classified into two types:-
+    #1 Manual Testing:-
+       -> Manual testing includes testing a software manually, i.e., without using any
+          automated tool or any script.
+       -> In this type, the tester takes over the role of an end-user and tests the software
+          to identify any unexpected behaviour or bug.
+       -> There are different stages for manual testing such as
+             * Unit testing,
+             * Integration testing,
+             * System testing,
+             * and User Acceptance testing.
+      -> Testers use test plans, test cases, or test scenarios to test a software to ensure
+         the completeness of testing. Manual testing also includes exploratory testing, as testers
+         explore the software to identify errors in it.
+
+    #2 Automation Testing:-
+         -> Automation testing, which is also known as Test Automation, is when the tester writes
+            scripts and uses another software to test the product.
+         -> This process involves automation of a manual process. Automation Testing is used to re-run
+            the test scenarios that were performed manually, quickly, and repeatedly.
+         -> Apart from regression testing, automation testing is also used to test the application
+            from load, performance, and stress point of view. It increases the test coverage,
+            improves accuracy, and saves time and money in comparison to manual testing.
+
+          What to Automate?
+            ->   It is not possible to automate everything in a software.
+            ->   The areas at which a user can make transactions such as the login form or registration forms,
+                 any area where large number of users can access the software simultaneously should be automated.
+            ->   Furthermore, all GUI items, connections with databases, field validations, etc. can be efficiently
+                 tested by automating the manual process.
+
+            When to Automate?
+                Test Automation should be used by considering the following aspects of a software −
+
+              #1  Large and critical projects
+              #2  Projects that require testing the same areas frequently
+              #3  Requirements not changing frequently
+              #4  Accessing the application for load and performance with many virtual users
+              #5  Stable software with respect to manual testing
+              #6  Availability of time
+
+              How to Automate?
+                  Automation is done by using a supportive computer language like VB scripting and an
+                  automated software application. There are many tools available that can be used to write
+                  automation scripts. Before mentioning the tools, let us identify the process that can be
+                  used to automate the testing process −
+
+              #1   Identifying areas within a software for automation
+              #2   Selection of appropriate tool for test automation
+              #3   Writing test scripts
+              #4   Development of test suits
+              #5   Execution of scripts
+              #6   Create result reports
+              #7   Identify any potential bug or performance issues
+
+              Software Testing Tools
+
+                  The following tools can be used for automation testing −
+
+                  HP Quick Test Professional
+                  Selenium
+                  IBM Rational Functional Tester
+                  SilkTest
+                  TestComplete
+                  Testing Anywhere
+                  WinRunner
+                  LoadRunner
+                  Visual Studio Test Professional
+                  WATIR
+
+------------------------------------------------------------------------------
+    Software Testing - Methods
+       There are different methods that can be used for software testing.
+      #1 Black-Box Testing
+      #2 White-Box Testing
+      #3 Grey-Box Testing
+
+
+   #1 Black-Box Testing:-
+        ->  The technique of testing without having any knowledge of the interior workings
+            of the application is called black-box testing.
+        ->  The tester is oblivious to the system architecture and does not have access
+            to the source code.
+        ->  Typically, while performing a black-box test, a tester will interact with the
+            system's user interface by providing inputs and examining outputs without knowing
+            how and where the inputs are worked upon.
+
+
+                        Advantages	                           Disadvantages
+          #1 Well suited and efficient for large            #1  Limited coverage, since only a selected
+             code segments.	                                    number of test scenarios is actually performed.
+          #2 Code access is not required.	                  #2  Inefficient testing, due to the fact that the tester
+                                                                only has limited knowledge about an application.
+          #3 Clearly separates user's perspective           #3  Blind coverage, since the tester cannot target specific
+             from the developer's perspective                   code segments or error-prone areas.
+             through visibly defined roles.
+          #4 Large numbers of moderately skilled            #4  The test cases are difficult to design.
+             testers can test the application with
+            no knowledge of implementation,
+            programming language, or operating systems.
+
+
+        #2 White-Box Testing:-
+            -> White-box testing is the detailed investigation of internal logic and structure of the code.
+            -> White-box testing is also called glass testing or open-box testing.
+            -> In order to perform white-box testing on an application, a tester needs to know the
+               internal workings of the code.
+            -> The tester needs to have a look inside the source code and find out which unit/chunk
+               of the code is behaving inappropriately.
+
+
+        #3 Grey-Box Testing:-
+             -> Grey-box testing is a technique to test the application with having a limited knowledge of the internal
+                workings of an application.
+             -> In software testing, the phrase the more you know, the better carries a lot of weight while testing an application.
+
+------------------------------------------------------------------------------
+
+  Software Testing - Levels
+    Levels of testing include different methodologies that can be used while conducting software testing.
+    The main levels of software testing are −
+       #1 Functional Testing
+       #2 Non-functional testing
+
+#1 Functional Testing:-
+      -> This is a type of black-box testing that is based on the specifications
+         of the software that is to be tested.
+      -> The application is tested by providing input and then the results are examined
+         that need to conform to the functionality it was intended for.
+      -> Functional testing of a software is conducted on a complete, integrated system
+         to evaluate the system's compliance with its specified requirements.
+
+      There are five steps that are involved while testing an application for functionality.
+      Steps	       Description
+        I	     The determination of the functionality that the intended application is meant to perform.
+        II	   The creation of test data based on the specifications of the application.
+        III	   The output based on the test data and the specifications of the application.
+        IV	   The writing of test scenarios and the execution of test cases.
+        V	     The comparison of actual and expected results based on the executed test cases.
+
+
+      ** Unit Testing **
+           -> Unit testing is performed by the respective developers on the individual units of
+              source code assigned areas.
+           -> The goal of unit testing is to isolate each part of the program and show that individual
+              parts are correct in terms of requirements and functionality.
+
+            Limitations of Unit Testing:-
+             -> Testing cannot catch each and every bug in an application.
+                It is impossible to evaluate every execution path in every software application.
+                The same is the case with unit testing.
+             -> There is a limit to the number of scenarios and test data that a developer can
+                use to verify a source code. After having exhausted all the options, there is no
+                choice but to stop unit testing and merge the code segment with other units.
+
+        ** Integration Testing **
+            -> Integration testing is defined as the testing of combined parts of an application to determine
+               if they function correctly.
+            -> Integration testing can be done in two ways:
+                #1 Bottom-up integration testing:-
+                      This testing begins with unit testing, followed by tests of progressively,
+                      higher-level combinations of units called modules or builds.
+                #2 Top-down integration testing:-
+                      In this testing, the highest-level modules are tested first and progressively,
+                      lower-level modules are tested thereafter.
+
+         ** System Testing **
+              -> System testing tests the system as a whole. Once all the components are integrated,
+                 the application as a whole is tested rigorously to see that it meets the
+                 specified Quality Standards.
+
+          ** Regression Testing **
+              -> Whenever a change in a software application is made, it is quite possible that other areas
+                 within the application have been affected by this change.
+              -> Regression testing is performed to verify that a fixed bug hasn't resulted in another
+                 functionality or business rule violation.
+              -> The intent of regression testing is to ensure that a change, such as a bug fix should
+                 not result in another fault being uncovered in the application.
+
+          ** Acceptance Testing **
+               ->  This type of testing is used to determine whether the application meets the intended
+                   specifications and satisfies the client’s requirement.
+               ->  The purpose of this test is to evaluate the system’s compliance with the business
+                   requirements and assess whether it is acceptable for delivery.
+
+          ** Alpha Testing **
+              -> This test is the first stage of testing and will be performed amongst the teams (developer and QA teams).
+              -> Unit testing, integration testing and system testing when combined together is known as alpha testing.
+
+          ** Beta Testing **
+               -> In beta testing, a sample of the intended audience tests the application.
+               -> Beta testing is also known as pre-release testing. Beta test versions of software are ideally distributed
+                  to a wide audience on the Web, partly to give the program a "real-world" test and partly to provide
+                  a preview of the next release.
+
+
+#2 Non-Functional Testing:-
+     ->  Non-functional testing involves testing a software from the requirements which are nonfunctional in nature
+         but important such as performance, security, user interface, etc.
+
+    Some of the important and commonly used non-functional testing types are discussed below.
+
+    Performance Testing:-
+       -> It is mostly used to identify any bottlenecks or performance issues rather than finding bugs in a software.
+          There are different causes that contribute in lowering the performance of a software −
+           #1 Network delay
+           #2 Client-side processing
+           #3 Database transaction processing
+           #4 Load balancing between servers
+           #5 Data rendering
+
+      Performance testing is considered as one of the important and mandatory testing type in terms of the following aspects −
+        -> Speed (i.e. Response Time, data rendering and accessing)
+        -> Capacity
+        -> Stability
+        -> Scalability
+        Performance testing can be either qualitative or quantitative and can be divided into different sub-types such as
+        Load testing and Stress testing.
+
+        ** Load Testing **
+            -> It is a process of testing the behaviour of a software by applying maximum load in terms of software accessing
+               and manipulating large input data.
+            -> It can be done at both normal and peak load conditions.
+            -> This type of testing identifies the maximum capacity of software and its behaviour at peak time.
+            -> Most of the time, load testing is performed with the help of automated tools such as Load Runner, AppLoader,
+               IBM Rational Performance Tester, Apache JMeter, Silk Performer, Visual Studio Load Test, etc.
+            -> Virtual users (VUsers) are defined in the automated testing tool and the script is executed to verify the load
+                testing for the software.
+            -> The number of users can be increased or decreased concurrently or incrementally based upon the requirements.
+
+        ** Stress Testing **
+            -> Stress testing includes testing the behaviour of a software under abnormal conditions.
+                For example, it may include taking away some resources or applying a load beyond the actual load limit.
+            -> The aim of stress testing is to test the software by applying the load to the system and taking over the resources
+               used by the software to identify the breaking point.
+               This testing can be performed by testing different scenarios such as −
+                 * Shutdown or restart of network ports randomly
+                 * Turning the database on or off
+                 * Running different processes that consume resources such as CPU, memory, server, etc.
+
+        ** Usability Testing **
+             -> Usability testing is a black-box technique and is used to identify any error(s) and improvements in the software
+                by observing the users through their usage and operation.usability testing ensures a good and user-friendly GUI
+                that can be easily handled.
+             -> Molich in 2000 stated that a user-friendly system should fulfil the following five goals,
+                i.e., easy to Learn, easy to remember, efficient to use, satisfactory to use, and easy to understand.
+
+        ** UI Testing **
+              -> UI testing involves testing the Graphical User Interface of the Software. UI testing ensures that the GUI
+                 functions according to the requirements and tested in terms of color, alignment, size, and other properties.
+
+      Security Testing:-
+             Security testing involves testing a software in order to identify any flaws and gaps from security and vulnerability
+             point of view.
+
+             Listed below are the main aspects that security testing should ensure −
+            -> Confidentiality
+            -> Integrity
+            -> Authentication
+            -> Availability
+            -> Authorization
+            -> Non-repudiation
+            -> Software is secure against known and unknown vulnerabilities
+            -> Software data is secure
+            -> Software is according to all security regulations
+            -> Input checking and validation
+            -> SQL insertion attacks
+            -> Injection flaws
+            -> Session management issues
+            -> Cross-site scripting attacks
+            -> Buffer overflows vulnerabilities
+            -> Directory traversal attack
+
+
+      Portability Testing:-
+          -> Portability testing includes testing a software with the aim to ensure its
+             reusability and that it can be moved from another software as well.
+          -> Portability testing can be considered as one of the sub-parts of system testing,
+             as this testing type includes overall testing of a software with respect to its
+             usage over different environments.
+          -> Computer hardware, operating systems, and browsers are the major
+             focus of portability testing.
+------------------------------------------------------------------------------
+
+          Software Testing - Documentation
