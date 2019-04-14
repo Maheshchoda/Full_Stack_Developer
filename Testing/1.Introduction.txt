@@ -320,3 +320,15 @@ Types of testing:-
 ------------------------------------------------------------------------------
 
           Software Testing - Documentation
+
+   -> Testing documentation involves the documentation of artifacts that should
+      be developed before or during the testing of Software.
+   -> Documentation for software testing helps in estimating the testing effort
+      required, test coverage, requirement tracking/tracing, etc.
+      The following are the commonly used documented artifacts
+      related to software testing such as −
+
+        ->  Test Plan
+        ->  Test Scenario
+        ->  Test Case
+        ->  Traceability Matrix
